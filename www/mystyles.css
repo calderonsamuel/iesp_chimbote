@@ -1,0 +1,14 @@
+.panelconscroll {
+  overflow-y: scroll;
+  max-height: 90vh; 
+  position: relative; 
+  align: centre;
+}
+
+.texto-inicio {
+  text-align: center;
+}
+
+.shiny-split-layout > div {
+  overflow: visible;
+}
