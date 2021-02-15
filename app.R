@@ -131,7 +131,7 @@ ui <- tagList(
 )
 
 ui <- secure_app(ui,
-                 theme = shinythemes::shinytheme("journal"))
+                 theme = shinythemes::shinytheme("darkly"))
 
 server <- function(input, output, session) {
     

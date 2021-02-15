@@ -6,3 +6,12 @@ db_leer_data <- function(tabla){
   DBI::dbDisconnect(conn)
   data
 }
+
+# Etiquetas de lenguaje para shinymanager
+shinymanager::set_labels(
+    language = "en",
+    "Please authenticate" = "Introducir credenciales",
+    "Username:" = "Usuario:",
+    "Password:" = "Clave:",
+    "Login" = "Ingresar"
+)
